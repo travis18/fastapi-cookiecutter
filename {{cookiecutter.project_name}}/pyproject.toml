@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "rakuten_backend_2.0"
+version = "0.1.0"
+description = ""
+authors = ["TravisC <travis18@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.0"
+fastapi = "*"
+uvicorn = "*"
+psycopg2-binary = "*"
+pydantic = "*"
+sqlalchemy = "*"
+alembic = "*"
+python-dotenv = "*"
+python-jose = "*"
+passlib = "*"
+emails = "*"
+jinja2 = "*"
+celery = "*"
+email-validator = "*"
+python-multipart = "*"
+bcrypt = "*"
+xmltodict = "*"
+pandas = "^1.2.3"
+Logbook = "^1.5.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

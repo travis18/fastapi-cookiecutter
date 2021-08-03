@@ -1,6 +1,7 @@
 {
   "project_name": "FastAPI-backend",
   "api_version": "api_v1",
+  "api_root_path":"api/v1",
   "POSTGRES_SERVER": "localhost",
   "POSTGRES_USER": "user",
   "POSTGRES_PASSWORD": "pwd",

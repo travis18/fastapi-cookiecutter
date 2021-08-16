@@ -1,0 +1,26 @@
+# sample .env file
+# remember to rename this file to .env
+DOMAIN=localhost
+
+# Backend
+BACKEND_CORS_ORIGINS=["http://localhost", "http://localhost:4200", "http://localhost:3000", "http://localhost:8080", "https://localhost", "https://localhost:4200", "https://localhost:3000", "https://localhost:8080", "http://dev.rakuten_backend_fastapi.com", "https://dev", "https://rakuten_backend_fastapi.com", "http://local.dockertoolbox.tiangolo.com", "http://localhost.tiangolo.com"]
+PROJECT_NAME={{cookiecutter.project_name}}
+SECRET_KEY=
+FIRST_SUPERUSER=
+FIRST_SUPERUSER_PASSWORD=
+SMTP_TLS=True
+SMTP_PORT=587
+SMTP_HOST=masterchan.info
+SMTP_USER=service
+SMTP_PASSWORD=Fuco1234!
+EMAILS_FROM_EMAIL=
+LOGMODE=DEBUG
+
+# Postgres
+POSTGRES_SERVER={{cookiecutter.POSTGRES_SERVER}}
+POSTGRES_USER={{cookiecutter.POSTGRES_USER}}
+POSTGRES_PASSWORD={{cookiecutter.POSTGRES_PASSWORD}}
+POSTGRES_DB={{cookiecutter.POSTGRES_DB}}
+
+# alembic
+PYTHONPATH=.
